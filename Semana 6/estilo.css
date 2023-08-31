@@ -1,0 +1,7 @@
+nav ul li.menu a {
+    color: white !important;
+}
+
+.menu a:hover {
+    color: pink !important;
+}

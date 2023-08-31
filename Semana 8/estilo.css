@@ -1,0 +1,31 @@
+nav ul li.menu a {
+    color: white !important;
+}
+
+.menu a:hover {
+    color: pink !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+header {
+    margin-top: 12px;
+}
+
+.titulo-servico {
+    color: #252C41;
+    margin-bottom: 40px;
+}
+
+.tamanho-icone {
+    font-size: 68px;
+    color: #F06292;
+}
+
+.servicos {
+    background-color: #E6E6FA;
+    margin-bottom: 0rem;
+    border-radius: 0rem;
+}

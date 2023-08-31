@@ -1,0 +1,23 @@
+nav ul li.menu a {
+    color: indianred !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a:hover {
+    color: pink !important;
+}
+
+header nav.entrada{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+}
+
+.btn-hover{
+    min-height: 45px; 
+    width: 200px; 
+    border-radius: 30px; border: 0px white; 
+    background-color: rgb(149, 165, 166); 
+    font-family: "Do Hyeon", sans-serif;
+}
+
+nav 

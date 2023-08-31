@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Formulários</title>
+    </head>
+    <body>
+<!--- Espaços Laterais para centralização --->
+        <table width="23%" height="100%" align="left">
+            <tr></tr>
+        </table>
+        <table width="23%" height="100%" align="right">
+            <tr></tr>
+        </table>
+<!--- Inicio do Formulário: Fieldset 1--->
+        <form>
+            <fieldset style="background: url(user.png) no-repeat 98% 88%; background-size: 15%; background-color: #E7ECED; border: solid 2px #556080;">
+            <legend><H4><font color=#556080>DADOS PESSOAIS</font></H4></legend>
+            <table align="left">
+            <tr>
+                <td><b>Nome:</b></td>
+                <td><b><input type="text" name="Nome" size="25">&nbsp&nbsp&nbsp&nbsp Sobrenome:</b> <input type="text" name="Sobrenome" size="25"></td></td>
+            </tr>
+            <tr>
+                <td><b><br>Nascimento:</b></td>
+                <td><br><input type="date" name="Nascimento"></td>
+            </tr>
+            <tr>
+                <td><b><br>RG:</b></td>
+                <td><br><input type="text"name="RG" size="12"></td>
+            </tr>
+            <tr>
+                <td><b><br>CPF:</b></td>
+                <td><br><input type="text" name="CPF1" size="8" maxlength="9"> - <input type="text" name="CPF2" size="1" maxlength="2"></td>
+            </tr>
+            </table>
+        </fieldset>
+<!--- Fieldset2 --->        
+        <fieldset style="background: url(home.png) no-repeat 100% 100%; background-size: 20%; background-color: #E7ECED; border: solid 2px #556080;">
+            <legend><H4><font color=#556080>ENDEREÇO</font></H4></legend>
+            <table align="left">
+                <tr>
+                    <td><b>Rua:</b></td>
+                    <td><input type="text" name="Rua" size="25">&nbsp&nbsp&nbsp&nbsp</td> 
+                    <td><b>Número:</b></td>
+                    <td><input type="text" name="Numero" size="10"></td>
+                </tr>
+                <tr>
+                    <td><b><br>Bairro:</b></td>
+                    <td><br><input type="text" name="Bairro" size="25"></td>
+                </tr>
+                <tr>
+                    <td><br><b>Estado:</b></td>
+                    <td><br>
+                        <select name="Estado" style="width: 150;">
+                            <option value="valor2" selected>Acre</option>
+                            <option value="valor1">Alagoas</option>
+                            <option value="valor3">Amapá</option>
+                            <option value="valor1">Amazonas</option>
+                            <option value="valor3">Bahia</option>
+                            <option value="valor1">Ceará</option>
+                            <option value="valor3">Distrito Federal</option>
+                            <option value="valor1">Espirito Santo</option>
+                            <option value="valor3">Goiás</option>
+                            <option value="valor1">Maranhão</option>
+                            <option value="valor3">Mato Grosso do Sul</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br><b>Cidade:</b></td>
+                    <td><br><input type="text" name="Cidade" size="25"></td>
+                </tr>
+                <tr>
+                    <td><br><b>CEP:</b></td>
+                    <td><br><input type="text" name="CEP1" size="10"> - <input type="text" name="CEP2" size="3"></td>
+                </tr>
+            </table>
+        </fieldset>
+<!--- Fieldset 3 --->
+        <fieldset style="background: url(key.png) no-repeat 100% 85%; background-size: 20%; background-color: #E7ECED; border: solid 2px #556080;">
+            <legend><H4><font color=#556080>LOGIN</font></H4></legend>
+            <table align="left">
+                    <tr>
+                        <td><b>E-mail:</b></td>
+                        <td><input type="email" name="email" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td><br><b>Imagem de perfil:</b></td>
+                        <td><br><input type="file" name="Imagem de Perfil" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td><br><b>Login de usuário:</b></td>
+                        <td><br><input type="text" name="Login" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td><br><b>Senha:</b></td>
+                        <td><br><input type="password" name="Senha" size="25"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+<!--- Fim do Formulário --->
+<!--- Rodapé para botões com imagens --->
+        <table width="100%" height="10%">
+            <tr>
+                <td height="60%" width=100 align="center">
+                    <input type="image" src="send.png" width="100" >
+                    <input type="image" src="trash.png" width="70"><br><br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

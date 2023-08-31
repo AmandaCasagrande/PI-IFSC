@@ -1,0 +1,61 @@
+nav ul li.menu a {
+    color: white !important;
+}
+
+.menu a:hover {
+    color: yellow !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+header {
+    margin-top: 12px;
+}
+
+.titulo-servico {
+    color: #252C41;
+    margin-bottom: 40px;
+}
+
+.tamanho-icone {
+    font-size: 68px;
+    color: #F06292;
+}
+
+.servicos {
+    background-color: #E6E6FA;
+    margin-bottom: 0rem;
+    border-radius: 0rem;
+}
+
+.titulo-depoimento {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.depoimento {
+    background-color: #194089;
+    margin-bottom: 0rem;
+    border-radius: 0rem;
+}
+
+.desc-depoimento{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.rodape{
+    background-color: #252c41;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.rodape ul li a.link-rodape{
+    color: #fff;
+}
+
+.rodape ul li a.link-rodape:hover{
+    color: yellow;
+}
